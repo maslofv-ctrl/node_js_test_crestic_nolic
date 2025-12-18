@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Пошаговая игра 2 игрока</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="lobby">
+      <div class="lobby-header">
+        Лобби
+        <button id="create">Создать комнату</button>
+      </div>
+      <div id="rooms"></div>
+    </div>
+    <div id="ui">
+      <div id="status"></div>
+      <button id="restart">Перезапуск</button>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script type="module" src="client.js"></script>
+  </body>
+</html>
